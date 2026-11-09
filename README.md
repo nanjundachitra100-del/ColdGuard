@@ -118,6 +118,15 @@ graph TB
 
 ## Quick Start
 
+### Install as a Library
+
+`pip install coldguard` installs only the core engine. Optional extras are available for `web`, `api`, `dev`, and `research`:
+
+```bash
+pip install "coldguard[web]"
+pip install "coldguard[api]"
+```
+
 ### Web App
 
 ```bash

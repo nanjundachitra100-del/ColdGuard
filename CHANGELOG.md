@@ -26,6 +26,7 @@ All notable changes to ColdGuard are documented here. Format follows [Keep a Cha
 ### Changed
 - Monte Carlo is vectorised (about 7× faster)
 - CI: Python 3.11/3.12 matrix, concurrency control, mobile Jest job
+- Streamlit, Plotly, Matplotlib, and ReportLab moved from core dependencies into the optional `web` extra
 
 - Freeze damage accumulator: first-order freeze kinetics in `core/arrhenius.py`, applied to all freeze-sensitive vaccines (DPT, HepB, IPV, PCV, Typhoid, MenA)
 - QR code scanner in the mobile app for Berlinger Fridge-tag logger IDs (camera-based)
