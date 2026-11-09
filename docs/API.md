@@ -22,8 +22,8 @@ A FastAPI service that wraps the Python engine. It accepts a temperature log and
 From the repository root:
 
 ```bash
-# Install dependencies (includes fastapi, uvicorn, pydantic and the engine's numerical libraries)
-pip install -r requirements.txt
+# Install API dependencies and the engine's numerical libraries
+pip install -e ".[api]"
 
 # Start the server with auto-reload for development
 python -m uvicorn api.main:app --reload --port 8000
